@@ -1,0 +1,5 @@
+@charset "UFT-8";
+body{
+             background-image:linear-gradient(to bottom,#483D3F,#058ED9,#F4EBD9,#A39A92,#77685D);
+           background-attachment: fixed;
+        }

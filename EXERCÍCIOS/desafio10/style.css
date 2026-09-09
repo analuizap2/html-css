@@ -1,0 +1,165 @@
+@charset "UFT-8";
+@font-face{
+    font-family:Bebas Neue;
+    src:url(BebasNeue-Regular.ttf) format(truetype);
+}
+@font-face{
+    font-family:idroid;
+    src:url(idroid.otf) format(OpenType);
+}
+* main{
+    font-size:large;
+    text-align: justify;
+    min-width:200px;
+    max-width: 1000px;
+    background-color: #fff;
+    padding:20px;
+    margin-bottom:30px;
+    margin:auto;
+    line-height: 1.5em;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius:10px;
+    box-shadow:0px 0px 10px #000000a9;
+}
+main img{
+    width:100%;
+}
+body{
+    background-color:#c5ebd6;
+}
+header{
+    background-image:linear-gradient(#34db7f,#2fa866,#000000c9);
+    padding:10px;
+    margin:-14px -8px 0px -8px;
+}
+h1#titulo{
+    font-family:'Bebas Neue';
+    text-align: center;
+    color: #fff;
+    text-shadow: 3px 3px 3px #000000bb;
+    font-size:3em;
+}
+.inicio{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: #fff;
+    text-shadow:3px 3px 3px #000000c2;
+    font-size:1.2em;
+    max-width: 600px;
+    margin:auto;
+    padding-right:10px;
+    padding-left:10px;
+    margin-bottom:17px;
+}
+nav{
+    padding:10px;
+    box-shadow:0px 7px 9px #0000005e;
+}
+a{
+    font-family:'Bebas Neue';
+    text-decoration: none;
+    color:#fff;
+    margin: 15px;
+}
+a:hover{
+    background-color: #2fa866;
+    padding: 10px;
+    border-radius: 5px;
+    transition-duration: 0.5s;
+}
+.conteudo{
+    font-family:'idroid';
+    color:#063d1e;
+    padding: 10px;
+}
+main > p{
+    font-size: large;
+    text-indent: 30px;
+    padding: 10px;
+}
+.link-android{
+    font-family:normal;
+    color:#2fa866;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.bugdroid{
+    display: block;
+    margin: auto;
+    max-width: 350px;
+}
+.primeira-versao-e-mascote{
+    font-family:'idroid';
+    padding: 10px;
+    background-color: #c5ebd6;
+    color:#063d1e;
+}
+.paragrafo-final{
+    text-indent: 30px;
+    padding: 10px;
+    text-align: justify;
+}
+.video{
+    text-align: center;
+    position: relative;
+    padding: 20px;
+    padding-bottom: 58%;
+}
+.video > iframe{
+    position: absolute;
+    top:5%;
+    left:5%;
+    width:90%;
+    height: 90%;
+}
+.letras-chaves{
+    color:#2fa866;
+    font-weight: bold;
+}
+.link-colorido{
+    font-family: normal;
+    color:#2fa866;
+    font-weight: bold;
+    margin-left:0px;
+    margin-right:0px;
+}
+div{
+    background-image: linear-gradient(to top, #063d1e,#2fa866);
+    padding: 30px;
+    margin:-8px;
+}
+section{
+    background-color: #c5ebd6;
+    border-radius: 5px 5px 0px 0px;
+    margin: 10px;
+}
+h3{
+    background-color: #2fa866;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px;
+}
+ul{
+    list-style-type: '\2714\0020\0020';
+    columns: 2;
+    list-style-position: inside;
+}
+footer{
+    background-color: #063d1e;
+    text-align: center;
+    color: #b4b3b3;
+    padding:5px;
+    margin-top: 30px;
+    margin-right:-8px;
+    margin-bottom:-10px;
+    margin-left:-8px;
+}
+.direitos-autorais{
+    color:#fff
+}
+.link-colorido::after{
+    content:'🔗';
+}
+.link-android::after{
+    content:'🔗'
+}
