@@ -1,5 +1,26 @@
 @charset "UFT-8";
+:root{
+  --azul:#058ED9;
+  --cinza:#483D3f;
+  --creme:#F4EBD9;
+  --marrom-claro:#A39A92;
+  --marrom-escuro:#77685D;
+}
 body{
-             background-image:linear-gradient(to bottom,#483D3F,#058ED9,#F4EBD9,#A39A92,#77685D);
-           background-attachment: fixed;
-        }
+  background-color:var(--marrom-claro);
+}
+h1{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+}
+h2{
+   font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+}
+div{
+  text-align:center;
+  background-color: var(--marrom-escuro);
+  padding:20px;
+  margin:60px;
+  border-radius:3px 3px 3px;
+}
