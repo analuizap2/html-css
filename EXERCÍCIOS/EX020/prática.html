@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prática com link</title>
+    <style>
+        body{
+            background-image: linear-gradient(to bottom, #8ec8dfe7,#13a55cbd);
+            background-attachment: fixed;
+        }
+        a{
+            text-decoration:none;
+            color: darkblue;
+            font-weight: bolder;
+        }
+        a:visited{
+            color: lightseagreen;
+        }
+        a:hover{
+            color:aquamarine;
+        }
+        a:active{
+            color:indianred;
+        }
+        .especial::before{
+            content:'->';
+            color: lightskyblue;
+        }
+        .especial::after{
+            content:'<-';
+            color:lightskyblue;
+        }
+        .especial{
+            background-color: #000000;
+        }
+    </style>
+</head>
+<body>
+    <h1>Prática com link</h1>
+    <ul>
+        <li><a href="https://github.com/analuizap2" target="_blank" class="especial">Repositório GitHub</a></li>
+         <li><a href="https://www.youtube.com/@cursoemvideo" target="_blank"class="especial">Canal do Youtube</a></li>
+         <li><a href="https://www.cursoemvideo.com/cursos/" target="_blank"class="especial">Site do Curso em Vídeo</a></li>
+    </ul>
+</body>
+</html>
