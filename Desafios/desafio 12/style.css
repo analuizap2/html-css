@@ -55,7 +55,9 @@ section{
     background-attachment:fixed;
 }
 .imagem01 > p{
-    background-color:transparent;
+    background-color:#00000033;
+    width:700px;
+    min-width:200px;
     color:#ffff;
     text-shadow:2px 2px black;
 }
