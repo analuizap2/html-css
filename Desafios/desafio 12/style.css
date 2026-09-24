@@ -62,8 +62,9 @@ section{
     background-attachment:fixed;
 }
 .imagem01 > p{
+    display: inline-block;
+    padding: 10px;
     background-color:#00000033;
-    width:800px;
     min-width:200px;
     color:#ffff;
     text-shadow:2px 2px black;
@@ -75,8 +76,9 @@ section{
     background-attachment:fixed;
 }
 .imagem02 > p{
+    display: inline-block;
     background-color:#00000033;
-    width:805px;
+    padding:10px;
     min-width:200px;
     color:#ffff;
     text-shadow:2px 2px black;
