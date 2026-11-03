@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Prática de Select,Datalist e Textarea</h1>
+    <form action="cadastro.php" method="post" autocomplete="on">
+        <p>
+            <label for="ijogo">Jogos:</label>
+
+            <select name="jogo" id="ijogo">
+                <option value="" selected>--- Escolha ---</option>
+                <optgroup label="The Last Of Us">
+                    <option value="TLOU">The Last Of Us (2013)</option>
+                    <option value="TLOU2">The Last Of Us Parte II (2020)</option>
+                </optgroup>
+                <optgroup label="Horizon">
+                    <option value="HZD">Horizon Zero Dawn (2017)</option>
+                    <option value="HFW">Horizon Forbidden West (2022)</option>
+                </optgroup>
+            
+                <optgroup label="Uncharted">
+                    <option value="UC">Uncharted:Drake's Fortune (2007)</option>
+                    <option value="UC2">Uncharted 2:Among Thieves (2009)</option>
+                    <option value="UC3">Uncharted 3:Drake's Deception (2011)</option>
+                    <option value="UC4">Uncharted 4:A Thief's End (2016)</option>
+                    <option value="UCTLL">Uncharted:The Lost Legacy (2017)</option>
+                </optgroup>
+
+                <optgroup label="Spider-Man (Moderno)">
+                    <option value="SM">Marvel's Spider-Man (2018)</option>
+                    <option value="SMM">Marvel's Spider-Man:Miles Morales (2020)</option>
+                    <option value="SM2">Marvel's Spider-Man 2 (2023)</option>
+                </optgroup>
+
+                <optgroup label="The Witcher">
+                    <option value="TW">The Witcher (2007)</option>
+                    <option value="TW2">The Witcher 2:Assassins of Kings (2011)</option>
+                    <option value="TW3">The Witcher 3:Wild Hunt (2015)</option>
+                    <option value="TW4">The Witcher 4:Em breve (2028)</option>
+                </optgroup>
+
+            </select>
+        </p>
+        <p>
+            <label for="iplata">Plataforma</label>
+
+            <input type="text" name="plata" id="iplata" list="listplata">
+
+            <datalist id="listplata">
+
+                <option value="PS5">PlayStation 5</option>
+                <option value="PC">Personal Computer</option>
+                <option value="XSS">Xbox Series S</option>
+
+            </datalist>
+        </p>
+        <p>
+            <label for="imsg">Mensagem:</label>
+            <textarea name="msg" id="imsg" placeholder="Digite sua mensagem..." cols="30"rows="5"></textarea>
+        </p>
+        <p>
+            <input type="reset" value="Limpar">
+            <input type="submit" value="Enviar">
+        </p>
+        
+    </form>
+    
+</body>
+</html>
